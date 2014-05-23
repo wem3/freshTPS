@@ -4,16 +4,16 @@
 The behavioral data is taken straight from the spreadsheet:  
 `~/Dropbox/TAdmin/Input/TorP - Dom or Sub - CAp.xlsx`  
 
-It is a [54 x 9] matrix, where each row is a subject, and the columns are:
-1. Dummy code for testosterone vs. placebo (1=T, 0=P)  
-2. % compete again decisions following a **win**   
-3. % compete again decisions following a **loss**  
-4. difference between 3. & 4.  
-5. average across 3. & 4.  
-6. raw SOP score  
-7. raw PRF score  
-8. median split on SOP  
-9. median split on PRF  
+It is a [54 x 9] matrix, where each row is a subject, and the columns are:  
+>1. Dummy code for testosterone vs. placebo (1=T, 0=P)  
+>2. % compete again decisions following a **win**   
+>3. % compete again decisions following a **loss**  
+>4. difference between 3. & 4.  
+>5. average across 3. & 4.  
+>6. raw SOP score  
+>7. raw PRF score  
+>8. median split on SOP  
+>9. median split on PRF  
 
 
 Beta values for each condition (for amplitude and area) are stored in [54 x 5] matrices, where each row is a subject, and the colums are parameter estimates from each of 5 functionally derived ROIs:
