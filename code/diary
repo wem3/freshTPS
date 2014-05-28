@@ -1,0 +1,1877 @@
+spm fmri
+ ___  ____  __  __                                            
+/ __)(  _ \(  \/  )                                           
+\__ \ )___/ )    (   Statistical Parametric Mapping           
+(___/(__)  (_/\/\_)  SPM12b - http://www.fil.ion.ucl.ac.uk/spm/
+
+
+SPM12b: v5852                                      14:32:53 - 26/04/2014
+========================================================================
+Initialising SPM                        :                   .Defaults settings have been modified by file(s):
+  /Users/wem3/Documents/MATLAB/spm_my_defaults.m
+Modified fields: stats 
+......Defaults settings have been modified by file(s):
+  /Users/wem3/Documents/MATLAB/spm_my_defaults.m
+Modified fields: stats 
+.done
+
+SPM present working directory:
+	/Volumes/crunch/dutch/code
+spmbizzy
+Direct calls to spm_defauts are deprecated.
+Please use spm('Defaults',modality) or spm_get_defaults instead.
+Defaults settings have been modified by file(s):
+  /Users/wem3/Documents/MATLAB/spm_my_defaults.m
+Modified fields: stats 
+
+------------------------------------------------------------------------
+Running spmbatch v3.3 (SPM8 compatible)            14:37:38 - 26/04/2014
+========================================================================
+
+Loading template job '/Volumes/crunch/dutch/code/ppc/warp/warp_s6.mat' ...
+
+Creating job for 'tps01' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps01
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_001_warp_s6_job.mat
+
+Creating job for 'tps02' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps02
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps02/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_002_warp_s6_job.mat
+
+Creating job for 'tps03' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps03
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps03/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_003_warp_s6_job.mat
+
+Creating job for 'tps04' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps04
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps04/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_004_warp_s6_job.mat
+
+Creating job for 'tps05' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps05
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps05/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_005_warp_s6_job.mat
+
+Creating job for 'tps06' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps06
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps06/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_006_warp_s6_job.mat
+
+Creating job for 'tps07' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps07
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps07/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_007_warp_s6_job.mat
+
+Creating job for 'tps08' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps08
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps08/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_008_warp_s6_job.mat
+
+Creating job for 'tps09' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps09
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps09/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_009_warp_s6_job.mat
+
+Creating job for 'tps10' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps10
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps10/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_010_warp_s6_job.mat
+
+Creating job for 'tps11' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps11
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps11/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_011_warp_s6_job.mat
+
+Creating job for 'tps12' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps12
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps12/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_012_warp_s6_job.mat
+
+Creating job for 'tps13' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps13
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps13/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_013_warp_s6_job.mat
+
+Creating job for 'tps14' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps14
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps14/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_014_warp_s6_job.mat
+
+Creating job for 'tps15' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps15
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps15/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_015_warp_s6_job.mat
+
+Creating job for 'tps16' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps16
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps16/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_016_warp_s6_job.mat
+
+Creating job for 'tps17' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps17
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps17/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_017_warp_s6_job.mat
+
+Creating job for 'tps18' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps18
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps18/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_018_warp_s6_job.mat
+
+Creating job for 'tps19' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps19
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps19/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_019_warp_s6_job.mat
+
+Creating job for 'tps20' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps20
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps20/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_020_warp_s6_job.mat
+
+Creating job for 'tps21' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps21
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps21/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_021_warp_s6_job.mat
+
+Creating job for 'tps22' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps22
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps22/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_022_warp_s6_job.mat
+
+Creating job for 'tps23' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps23
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps23/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_023_warp_s6_job.mat
+
+Creating job for 'tps24' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps24
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps24/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_024_warp_s6_job.mat
+
+Creating job for 'tps25' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps25
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps25/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_025_warp_s6_job.mat
+
+Creating job for 'tps26' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps26
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps26/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_026_warp_s6_job.mat
+
+Creating job for 'tps27' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps27
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps27/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_027_warp_s6_job.mat
+
+Creating job for 'tps28' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps28
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps28/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_028_warp_s6_job.mat
+
+Creating job for 'tps29' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps29
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps29/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_029_warp_s6_job.mat
+
+Creating job for 'tps30' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps30
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps30/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_030_warp_s6_job.mat
+
+Creating job for 'tps31' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps31
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps31/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_031_warp_s6_job.mat
+
+Creating job for 'tps32' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps32
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps32/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_032_warp_s6_job.mat
+
+Creating job for 'tps33' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps33
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps33/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_033_warp_s6_job.mat
+
+Creating job for 'tps34' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps34
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps34/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_034_warp_s6_job.mat
+
+Creating job for 'tps35' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps35
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps35/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_035_warp_s6_job.mat
+
+Creating job for 'tps36' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps36
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps36/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_036_warp_s6_job.mat
+
+Creating job for 'tps37' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps37
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps37/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_037_warp_s6_job.mat
+
+Creating job for 'tps38' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps38
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps38/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_038_warp_s6_job.mat
+
+Creating job for 'tps39' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps39
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps39/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_039_warp_s6_job.mat
+
+Creating job for 'tps40' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps40
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps40/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_040_warp_s6_job.mat
+
+Creating job for 'tps41' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps41
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps41/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_041_warp_s6_job.mat
+
+Creating job for 'tps42' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps42
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps42/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_042_warp_s6_job.mat
+
+Creating job for 'tps43' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps43
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps43/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_043_warp_s6_job.mat
+
+Creating job for 'tps44' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps44
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps44/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_044_warp_s6_job.mat
+
+Creating job for 'tps45' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps45
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps45/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_045_warp_s6_job.mat
+
+Creating job for 'tps46' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps46
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps46/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_046_warp_s6_job.mat
+
+Creating job for 'tps47' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps47
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps47/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_047_warp_s6_job.mat
+
+Creating job for 'tps48' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps48
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps48/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_048_warp_s6_job.mat
+
+Creating job for 'tps49' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps49
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps49/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_049_warp_s6_job.mat
+
+Creating job for 'tps50' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps50
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps50/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_050_warp_s6_job.mat
+
+Creating job for 'tps51' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps51
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps51/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_051_warp_s6_job.mat
+
+Creating job for 'tps52' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps52
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps52/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_052_warp_s6_job.mat
+
+Creating job for 'tps53' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps53
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps53/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_053_warp_s6_job.mat
+
+Creating job for 'tps54' ...
+found   : /Volumes/crunch/dutch/subjects/tps01
+replaced: /Volumes/crunch/dutch/subjects/tps54
+found   : /Volumes/crunch/dutch/subjects/tps01/anat/orage.nii,1
+replaced: /Volumes/crunch/dutch/subjects/tps54/anat/orage.nii,1
+
+Number of replacements: 2
+
+Saved job as /Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_054_warp_s6_job.mat
+
+Finished: 54 of 54 jobs successfully created.
+
+------------------------------------------------------------------------
+spmbatch v3.3 finished, (c) by Adrian Imfeld       14:37:39 - 26/04/2014
+========================================================================
+load('/Users/wem3/matlab/all-conditions.mat')
+load('/Users/wem3/matlab/sots.mat')
+sot
+
+sot = 
+
+    [26x1 double]    [26x1 double]    [26x1 double]    [26x1 double]
+
+cac
+Bye for now...
+
+spm fmri
+ ___  ____  __  __                                            
+/ __)(  _ \(  \/  )                                           
+\__ \ )___/ )    (   Statistical Parametric Mapping           
+(___/(__)  (_/\/\_)  SPM12b - http://www.fil.ion.ucl.ac.uk/spm/
+
+
+SPM12b: v5852                                      14:45:23 - 26/04/2014
+========================================================================
+Initialising SPM                        :                   .Defaults settings have been modified by file(s):
+  /Users/wem3/Documents/MATLAB/spm_my_defaults.m
+Modified fields: stats 
+......Defaults settings have been modified by file(s):
+  /Users/wem3/Documents/MATLAB/spm_my_defaults.m
+Modified fields: stats 
+.done
+
+SPM present working directory:
+	/Volumes/crunch/dutch/code
+Bye for now...
+
+run('/Volumes/crunch/dutch/code/ppc/warp/run_warp_s6_job.m')
+run('/Volumes/crunch/dutch/code/ppc/warp/run_warp_s6_job.m')
+jobfile = {'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_001_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_002_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_003_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_004_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_005_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_006_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_007_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_008_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_009_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_010_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_011_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_012_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_013_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_014_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_015_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_016_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_017_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_018_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_019_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_020_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_021_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_022_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_023_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_024_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_025_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_026_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_027_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_028_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_029_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_030_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_031_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_032_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_033_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_034_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_035_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_036_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_037_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_038_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_039_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_040_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_041_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_042_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_043_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_044_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_045_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_046_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_047_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_048_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_049_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_050_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_051_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_052_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_053_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_054_warp_s6_job.mat'};
+nrun = length(jobfile);
+clc
+jobfile
+
+jobfile = 
+
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_001_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_002_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_003_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_004_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_005_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_006_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_007_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_008_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_009_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_010_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_011_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_012_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_013_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_014_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_015_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_016_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_017_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_018_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_019_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_020_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_021_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_022_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_023_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_024_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_025_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_026_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_027_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_028_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_029_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_030_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_031_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_032_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_033_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_034_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_035_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_036_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_037_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_038_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_039_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_040_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_041_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_042_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_043_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_044_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_045_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_046_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_047_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_048_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_049_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_050_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_051_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_052_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_053_warp_s6_job.mat'
+    '/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_054_warp_s6_job.mat'
+
+jobs = repmat(jobfile, 1, nrun);
+jobs
+
+jobs = 
+
+  Columns 1 through 8
+
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+
+  Columns 9 through 16
+
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+
+  Columns 17 through 24
+
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+
+  Columns 25 through 32
+
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+
+  Columns 33 through 40
+
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+
+  Columns 41 through 48
+
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+
+  Columns 49 through 54
+
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]    [1x74 char]
+
+cac
+jobs = {'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_001_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_002_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_003_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_004_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_005_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_006_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_007_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_008_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_009_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_010_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_011_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_012_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_013_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_014_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_015_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_016_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_017_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_018_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_019_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_020_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_021_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_022_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_023_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_024_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_025_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_026_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_027_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_028_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_029_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_030_warp_s6load('/Volumes/crunch/dutch/matrix/TPS.mat')
+TPS_headers
+
+TPS_headers = 
+
+  Columns 1 through 8
+
+    'fixOnset'    'fixDur'    'statusOnset'    'status'    'mathOnset'    'mathRT'    'winLoseOnset'    'winLose'
+
+  Columns 9 through 11
+
+    'competeOnset'    'competeRT'    'compete'
+
+cac
+cd ../matrix
+make_tps_subStruct
+{Error: <a href="matlab: opentoline('/Volumes/crunch/dutch/matrix/make_tps_subStruct.m',116,102)">File: make_tps_subStruct.m Line: 116 Column: 102
+</a>Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+make_tps_subStruct
+{Error: <a href="matlab: opentoline('/Volumes/crunch/dutch/matrix/make_tps_subStruct.m',116,108)">File: make_tps_subStruct.m Line: 116 Column: 108
+</a>Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+make_tps_subStruct
+{Error using <a href="matlab:helpUtils.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+Cannot CD to /Volumes/crunch/dutch/subjects/tps01/vec (Name is nonexistent or not a directory).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('make_tps_subStruct', '/Volumes/crunch/dutch/matrix/make_tps_subStruct.m', 106)" style="font-weight:bold">make_tps_subStruct</a> (<a href="matlab: opentoline('/Volumes/crunch/dutch/matrix/make_tps_subStruct.m',106,0)">line 106</a>)
+            cd(vecDir);
+} 
+make_tps_subStruct
+{Undefined function or variable 'make_tps_subStruct'.
+} 
+cac
+cd /Volumes/crunch/ducth/code
+{Error using <a href="matlab:helpUtils.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+Cannot CD to /Volumes/crunch/ducth/code (Name is nonexistent or not a directory).
+} 
+cd /Volumes/crunch/dutch/code
+cd ../matrix
+make_tps_subStruct
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Inputs must have the same size.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('make_tps_subStruct', '/Volumes/crunch/dutch/matrix/make_tps_subStruct.m', 116)" style="font-weight:bold">make_tps_subStruct</a> (<a href="matlab: opentoline('/Volumes/crunch/dutch/matrix/make_tps_subStruct.m',116,0)">line 116</a>)
+            tpsReport.(curRun).lose1Onset = TPS{r,s} ( (find(TPS{r,s}(:,8)==0)  & (find(TPS{r,s}(:,4)==1) ) ),7);
+} 
+cac
+make_tps_subStruct
+{Undefined function or variable 'make_tps_subStruct'.
+} 
+cd /Volumes/crunch/dutch/matrix
+curRun=1
+
+curRun =
+
+     1
+
+load TPS
+loseOnset = TPS{r,s}((find(TPS{r,s}(:,8)==0)),7);
+{Undefined function or variable 'r'.
+} 
+loseOnset = TPS{r,s}((find(TPS{1,1}(:,8)==0)),7);
+{Undefined function or variable 'r'.
+} 
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0)),7);
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0)),7)
+
+loseOnset =
+
+   12.1950
+   30.3690
+   48.5260
+  150.4510
+  199.8870
+  270.4320
+  304.7290
+  322.8870
+  339.0100
+  373.2900
+  391.4480
+  425.7110
+  460.9920
+  477.1320
+  510.3950
+
+loseOnset = TPS{1,1}(((find(TPS{1,1}(:,8)==0))&(find(TPS{1,1}(:,4)==1)),7)
+ loseOnset = TPS{1,1}(((find(TPS{1,1}(:,8)==0))&(find(TPS{1,1}(:,4)==1)),7)
+                                                                        |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+loseOnset = TPS{1,1}(((find(TPS{1,1}(:,8)==0))&(find(TPS{1,1}(:,4)==1))),7)
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+} 
+loseOnset = TPS{1,1}(((find(TPS{1,1}(:,8)==0))&&(find(TPS{1,1}(:,4)==1))),7)
+{Operands to the || and && operators must be convertible to logical scalar values.
+} 
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0))((find(TPS{1,1}(:,4)==1))),7)
+ loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0))((find(TPS{1,1}(:,4)==1))),7)
+                                              |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0))((find(TPS{1,1}(:,4)==1)),7)
+ loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0))((find(TPS{1,1}(:,4)==1)),7)
+                                              |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+loseOnset = TPS{1,1}((TPS{1,1}(:,8)==0)),7)
+ loseOnset = TPS{1,1}((TPS{1,1}(:,8)==0)),7)
+                                           |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+loseOnset = TPS{1,1}(TPS{1,1}(:,8)==0),7)
+ loseOnset = TPS{1,1}(TPS{1,1}(:,8)==0),7)
+                                         |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+loseOnset = TPS{1,1}(TPS{1,1}(:,8)==0),7
+
+loseOnset =
+
+    4.0420
+   20.2480
+   38.4220
+  141.3470
+  190.8000
+  261.3450
+  296.6430
+  312.7830
+  330.9230
+  364.2030
+  381.3440
+  417.6260
+  450.8880
+  469.0460
+  501.3090
+
+
+ans =
+
+     7
+
+loseOnset = TPS{1,1}(TPS{1,1}(:,8)==0)
+
+loseOnset =
+
+    4.0420
+   20.2480
+   38.4220
+  141.3470
+  190.8000
+  261.3450
+  296.6430
+  312.7830
+  330.9230
+  364.2030
+  381.3440
+  417.6260
+  450.8880
+  469.0460
+  501.3090
+
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0)),7);
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0)),7)
+
+loseOnset =
+
+   12.1950
+   30.3690
+   48.5260
+  150.4510
+  199.8870
+  270.4320
+  304.7290
+  322.8870
+  339.0100
+  373.2900
+  391.4480
+  425.7110
+  460.9920
+  477.1320
+  510.3950
+
+TPS{1,1}
+
+ans =
+
+    4.0420    1.0000    5.1090    2.0000    8.1600    1.9990   12.1950         0   16.2130    2.5620    1.0000
+   20.2480    3.0000   23.2830    3.0000   26.3340    2.0330   30.3690         0   34.3870         0       NaN
+   38.4220    3.0000   41.4400    3.0000   44.4920    2.7550   48.5260         0   52.5450    1.5820         0
+   56.5800    2.0000   58.5970    1.0000   61.6480    1.9420   65.6830    1.0000   69.7020    1.8160    1.0000
+   73.7370    2.0000   75.7540    1.0000   78.8220    2.0000   82.8570    1.0000   86.8750    1.2110    1.0000
+   90.8940    1.0000   91.9110    3.0000   94.9780    1.8360   99.0300    1.0000  103.0480    1.0220    1.0000
+  107.0670    3.0000  110.0850    2.0000  113.1360    2.1100  117.1710    1.0000  121.1890    0.9360    1.0000
+  125.2240    1.0000  126.2410    2.0000  129.2760    1.6650  133.3110    1.0000  137.3290    1.3560    1.0000
+  141.3470    2.0000  143.3650    3.0000  146.4160    1.2610  150.4510         0  154.4690    0.8560         0
+  158.4870    1.0000  159.5040    1.0000  162.5560    2.0810  166.5910    1.0000  170.6090    1.9480    1.0000
+  174.6440    1.0000  175.6610    1.0000  178.7290    2.2680  182.7640    1.0000  186.7820    1.3420    1.0000
+  190.8000    2.0000  192.8180    2.0000  195.8520    1.8640  199.8870         0  203.9060    1.2580         0
+  207.9240    3.0000  210.9420    1.0000  213.9930    1.1710  218.0280    1.0000  222.0460    1.1260    1.0000
+  226.0650    2.0000  228.0820    3.0000  231.1170    1.4470  235.1520    1.0000  239.1700    1.3940    1.0000
+  243.1880    3.0000  246.2060    3.0000  249.2570    2.0420  253.2920    1.0000  257.3100    2.3970    1.0000
+  261.3450    2.0000  263.3630    1.0000  266.3970    1.5580  270.4320         0  274.4510    1.3280         0
+  278.4860    3.0000  281.5030    3.0000  284.5710    1.7760  288.6060    1.0000  292.6250    1.6740    1.0000
+  296.6430    1.0000  297.6600    1.0000  300.6950    1.4750  304.7290         0  308.7480    0.6380         0
+  312.7830    3.0000  315.8010    1.0000  318.8520    2.5580  322.8870         0  326.9050    0.6250    1.0000
+  330.9230    1.0000  331.9400    3.0000  334.9750    1.6430  339.0100         0  343.0280    1.0780         0
+  347.0630    2.0000  349.0810    2.0000  352.1150    1.4550  356.1500    1.0000  360.1680    1.2180         0
+  364.2030    2.0000  366.2210    3.0000  369.2550    2.3620  373.2900         0  377.3090    2.3960         0
+  381.3440    3.0000  384.3610    2.0000  387.4130    1.3320  391.4480         0  395.4660    0.6150    1.0000
+  399.5010    3.0000  402.5190    2.0000  405.5530    1.6080  409.5880    1.0000  413.6070    0.7220    1.0000
+  417.6260    1.0000  418.6420    2.0000  421.6760    1.6840  425.7110         0  429.7300    1.0380         0
+  433.7650    2.0000  435.7820    3.0000  438.8170    1.8710  442.8520    1.0000  446.8700    0.6740    1.0000
+  450.8880    3.0000  453.9060    2.0000  456.9570    2.8990  460.9920         0  465.0110    0.3970         0
+  469.0460    1.0000  470.0630    1.0000  473.0970    2.2550  477.1320         0  481.1500    0.4250    1.0000
+  485.1690    1.0000  486.1860    2.0000  489.2370    2.1380  493.2720    1.0000  497.2900    0.5890    1.0000
+  501.3090    2.0000  503.3260    1.0000  506.3610    1.8060  510.3950         0  514.4140    0.5610         0
+
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0)&find(TPS{1,1}(:,4)==1)),7)
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Matrix dimensions must agree.
+} 
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0)&&find(TPS{1,1}(:,4)==1)),7)
+{Operands to the || and && operators must be convertible to logical scalar values.
+} 
+loseOnset = TPS{1,1}((find(TPS{1,1}(:,8)==0)(TPS{1,1}(:,4)==1)),7)
+{Error: ()-indexing must appear last in an index expression.
+} 
+loseOnset = TPS{1,1}((find(TPS{1,1}((TPS{1,1}(:,4)==1),8)==0)),7)
+
+loseOnset =
+
+   99.0300
+  117.1710
+  133.3110
+  150.4510
+  166.5910
+
+loseOnset = TPS{1,1}((find(TPS{1,1}(find(TPS{1,1}(:,4)==1),8)==0)),7)
+
+loseOnset =
+
+   99.0300
+  117.1710
+  133.3110
+  150.4510
+  166.5910
+
+loseOnset = TPS{1,1}((find(TPS{1,1}(find(TPS{1,1}(:,4)==1),8)==0)),7)
+
+loseOnset =
+
+   99.0300
+  117.1710
+  133.3110
+  150.4510
+  166.5910
+
+(find(TPS{1,1}(:,4)==1)
+ (find(TPS{1,1}(:,4)==1)
+                        |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+find(TPS{1,1}(:,4)==1)
+
+ans =
+
+     4
+     5
+    10
+    11
+    13
+    16
+    18
+    19
+    28
+    30
+
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0)),7)
+ TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0)),7)
+                                                                         |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0),7)
+ TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0),7)
+                                                                        |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0)
+ TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0)
+                                                                        |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0))
+ TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0))
+                                                                         |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0)))
+ TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0)))
+                                                                          |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)==(find(TPS{1,1}(:,8)==0))))),7)
+{Error using <a href="matlab:helpUtils.errorDocCallback('eq')" style="font-weight:bold"> == </a>
+Matrix dimensions must agree.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)&&(find(TPS{1,1}(:,8)==0))))),7)
+{Operands to the || and && operators must be convertible to logical scalar values.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)&(find(TPS{1,1}(:,8)==0))))),7)
+{Error using <a href="matlab:helpUtils.errorDocCallback('and')" style="font-weight:bold"> & </a>
+Inputs must have the same size.
+} 
+TPS{1,1}(find(TPS{1,1}((find(TPS{1,1}(:,4)==1)((find(TPS{1,1}(:,8)==0)))))),7)
+{Error: ()-indexing must appear last in an index expression.
+} 
+TPS_headers
+
+TPS_headers = 
+
+  Columns 1 through 8
+
+    'fixOnset'    'fixDur'    'statusOnset'    'status'    'mathOnset'    'mathRT'    'winLoseOnset'    'winLose'
+
+  Columns 9 through 11
+
+    'competeOnset'    'competeRT'    'compete'
+
+TPS_headers{[3:end]}
+
+ans =
+
+statusOnset
+
+
+ans =
+
+status
+
+
+ans =
+
+mathOnset
+
+
+ans =
+
+mathRT
+
+
+ans =
+
+winLoseOnset
+
+
+ans =
+
+winLose
+
+
+ans =
+
+competeOnset
+
+
+ans =
+
+competeRT
+
+
+ans =
+
+compete
+
+TPS_headers{1,[3:end]}
+
+ans =
+
+statusOnset
+
+
+ans =
+
+status
+
+
+ans =
+
+mathOnset
+
+
+ans =
+
+mathRT
+
+
+ans =
+
+winLoseOnset
+
+
+ans =
+
+winLose
+
+
+ans =
+
+competeOnset
+
+
+ans =
+
+competeRT
+
+
+ans =
+
+compete
+
+TPS_headers{1,(3:end)}
+
+ans =
+
+statusOnset
+
+
+ans =
+
+status
+
+
+ans =
+
+mathOnset
+
+
+ans =
+
+mathRT
+
+
+ans =
+
+winLoseOnset
+
+
+ans =
+
+winLose
+
+
+ans =
+
+competeOnset
+
+
+ans =
+
+competeRT
+
+
+ans =
+
+compete
+
+TPS_headers(1,(3:end))
+
+ans = 
+
+  Columns 1 through 8
+
+    'statusOnset'    'status'    'mathOnset'    'mathRT'    'winLoseOnset'    'winLose'    'competeOnset'    'competeRT'
+
+  Column 9
+
+    'compete'
+
+TPS_headers(1,(3:end))
+
+ans = 
+
+    'statusOnset'    'status'    'mathOnset'    'mathRT'    'winLoseOnset'    'winLose'    'competeOnset'    'competeRT'    'compete'
+
+_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_031_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_032_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_033_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_034_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_035_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_036_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_037_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_038_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_039_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_040_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_041_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_042_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_043_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_044_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_045_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_046_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_047_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_048_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_049_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_050_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_051_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_052_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_053_warp_s6_job.mat'
+'/Volumes/crunch/dutch/code/ppc/warp/spmbatch_jobs/expr_054_warp_s6_job.mat'};
+spm('defaults','FMRI');
+Defaults settings have been modified by file(s):
+  /Users/wem3/Documents/MATLAB/spm_my_defaults.m
+Modified fields: stats 
+spm_jobman('initcfg')
+spm_jobman('run',jobs);
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normalise: Estimate & Write'
+Done    'Normalise: Estimate & Write'
+Running 'Smooth'
+Done    'Smooth'
+Running 'File Selector (Batch Mode)'
+Done    'File Selector (Batch Mode)'
+Running 'Normal
