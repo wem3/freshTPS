@@ -3,11 +3,12 @@
 
 #### a note about file structure
 
-The organization may seem unnecessarily nested, but betas.zip is organized as follows:
-/betas  
-   /fx_2  
-       /ampl  
-       /area  
+The organization may seem unnecessarily nested, but betas.zip is organized as follows:  
+
+- /betas  
+---- /fx_2  
+-------- /ampl  
+-------- /area  
 
 
 This is because the analysis from whence these betas hail is fx_2 (onsets for each screen, durations as RT when possible, otherwise 0).
